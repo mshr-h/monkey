@@ -1,7 +1,10 @@
 package lexer
 
-import "testing"
-import "monkey/token"
+import (
+	"testing"
+
+	"github.com/mshr-h/monkey/token"
+)
 
 func TestNextToken(t *testing.T) {
 	input := `=+(){},;`
